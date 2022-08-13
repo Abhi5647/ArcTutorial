@@ -46,7 +46,7 @@ export class IntervalOperatorComponent implements OnInit {
      // last()
      // elementAt(0)
   //    distinct()
-     // skip(2)
+      skip(2),
      count()
     ).subscribe(data=>{
       console.log(data);
